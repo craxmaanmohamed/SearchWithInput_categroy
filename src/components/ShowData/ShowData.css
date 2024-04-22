@@ -1,0 +1,91 @@
+.container{
+    height: 100%;
+    min-height: 100dvh;
+    text-align: left;
+    padding: 50px;
+
+}
+.midlecontainer{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+
+}
+.cart{
+    display: block;
+    width: auto;
+    height: 400px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+.img{
+    height: 200px;
+    background-color: gray;
+    margin-bottom: 5px;
+    /*   overflow: hidden;  si uusan geesaha ugu soobixin*/
+    overflow: hidden; 
+
+  
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.img img:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+
+.datatext .priceH{
+    font-size: 15px;
+    font-weight:  bolder;
+    margin-bottom: 10px;
+    color: rgb(6, 171, 6);
+}
+.seamore{
+    position: absolute;
+    bottom: 0%;
+    margin-bottom: 10px;
+    left: 0%;
+    margin-left: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-size: 17px;
+    text-transform: capitalize;
+    
+}
+.seamore:hover{
+    transition: 0.5s;
+    background-color: rgb(13, 54, 13);
+}
+/* SearchInput */
+.divSearch{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.SearchInput{
+    padding-left: 20px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.SearchBtn{
+    height: 30px;
+    font-size: 40px;
+}

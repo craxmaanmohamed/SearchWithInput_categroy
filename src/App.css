@@ -1,0 +1,15 @@
+
+.CategoryBtn{
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 15px;
+  margin: 5px;
+  text-transform: capitalize;
+  background-color: rgb(213, 181, 1);
+  color: white;
+}
+.CategoryBtn:hover{
+  background-color: rgb(165, 120, 5);
+  transition: 0.2s;
+}
